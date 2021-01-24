@@ -4,8 +4,8 @@ import { StyleSheet, Text, View, Image } from 'react-native';
 export default function App() {
     return (
         <View style = {styles.container}>
-            <Text style = {style.message}>Open up App.js to start working on your app!</Text>
-			<Image source = {require('./assets/unnamed.jpg')} style = {style.pictrue}></Image>
+            <Text style = {styles.message}>Test Message!</Text>
+			<Image source = {require('./assets/unnamed.jpg')} style = {styles.pictrue}></Image>
         </View>
     );
 }
@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
 		color: 'red'
 	},
 	pictrue: {
-		witdh: 100,
-		height: 100
+		width: 200,
+		height: 200
 	},
 });
